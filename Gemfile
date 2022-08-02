@@ -45,6 +45,7 @@ group :development do
   gem 'rspec-rails', '~> 5.1', '>= 5.1.2'
   gem 'factory_bot', '~> 6.2', '>= 6.2.1'
   gem 'factory_bot_rails', '~> 6.2'
+  gem 'annotate', '~> 3.2'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
