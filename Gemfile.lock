@@ -211,7 +211,7 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
-  activerecord-postgis-adapter (~> 6)
+  activerecord-postgis-adapter (~> 6.0)
   annotate (~> 3.2)
   bootsnap (>= 1.4.4)
   byebug
