@@ -46,6 +46,7 @@ group :development do
   gem 'factory_bot', '~> 6.2', '>= 6.2.1'
   gem 'factory_bot_rails', '~> 6.2'
   gem 'annotate', '~> 3.2'
+  gem 'activerecord-postgis-adapter', '~> 6'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
