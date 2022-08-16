@@ -9,4 +9,6 @@
 #  user_id    :bigint
 #
 class Post < ApplicationRecord
+  belongs_to :user
+  belongs_to :thread, class_name: 'Post',optional: true
 end
